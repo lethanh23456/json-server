@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "le dinh thanh",
+      "email": "thanh@gmail.com",
+      "password": "12345",
+      "token": "bkP9VQydMBRmW67obqD7"
+    },
+    {
+      "id": "2",
+      "fullName": "le dinh nhan",
+      "email": "nhan@gmail.com",
+      "password": "123456",
+      "token": "KsZitkpwbbPF3fdjbQwh"
+    },
+    {
+      "id": "3",
+      "fullName": "le dinh tt",
+      "email": "t@gmail.com",
+      "password": "1234567",
+      "token": "uZM6HrLtbod8p0FfMoLB"
+    },
+    {
+      "id": "4",
+      "fullName": "le dinhtttt",
+      "email": "g@gmail.com",
+      "password": "123456789",
+      "token": "aAIgoVwHJTEHKRAr4LVp"
+    },
+    {
+      "id": "5",
+      "fullName": "le ttt",
+      "email": "h@gmail.com",
+      "password": "123456789",
+      "token": "NdMpMf7f6BJ1A637cnZQ"
+    },
+    {
+      "id": "6",
+      "fullName": "le dinh tttttttttttttt",
+      "email": "1@gmail.com",
+      "password": "12333333",
+      "token": "M6COTpOdD6MS2gO8TNR4"
+    },
+    {
+      "id": "7",
+      "fullName": "le dang th",
+      "email": "eqwwqewr@gmail.com",
+      "password": "32453",
+      "token": "dZ5ZHNO8IKrIcYY7b0EC"
+    },
+    {
+      "id": 8,
+      "fullName": "le van dang",
+      "email": "1455@gmail.com",
+      "password": "1",
+      "token": "t5wHEZ998YYHUcOP5Ihs"
+    },
+    {
+      "id": 9,
+      "fullName": "tuuuu",
+      "email": "234@gmail.com",
+      "password": "1",
+      "token": "sTHaR28qFLMVI9ro5KMc"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "Javascript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "HTML là viết tắt của...",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicId": 2,
+      "question": "CSS là viết tắt của?",
+      "answers": [
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Cascading Style Sheets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "3",
+      "topicId": 2,
+      "question": "Muốn liên kết file HTML với file định nghĩa CSS ta dùng dòng nào sau đây?",
+      "answers": [
+        "<style src=”mystyle.css”>",
+        "<stylesheet>mystyle.css</stylesheet>",
+        "<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "4",
+      "topicId": 2,
+      "question": "Thuộc tính nào định nghĩa CSS ngay trong 1 tag?",
+      "answers": [
+        "font",
+        "class",
+        "lstyle"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "5",
+      "topicId": 2,
+      "question": " Đâu là tag tạo ra 1 danh sách đứng đầu bằng số",
+      "answers": [
+        "<ul>",
+        "<list>",
+        "<ol>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "6",
+      "topicId": 1,
+      "question": "Ai là người đưa ra các tiêu chuẩn Web?",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "id": "143",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answers": 1
+        },
+        {
+          "questionId": 3,
+          "answers": 2
+        },
+        {
+          "questionId": 4,
+          "answers": 2
+        },
+        {
+          "questionId": 5,
+          "answers": 3
+        }
+      ]
+    },
+    {
+      "id": "2346",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answers": 2
+        },
+        {
+          "questionId": 3,
+          "answers": 2
+        },
+        {
+          "questionId": 4,
+          "answers": 2
+        },
+        {
+          "questionId": 5,
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "e8d1",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 1
+        }
+      ]
+    },
+    {
+      "id": "7909",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 0
+        }
+      ]
+    },
+    {
+      "id": "b823",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 1
+        }
+      ]
+    },
+    {
+      "id": "8b1b",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answers": 2
+        },
+        {
+          "questionId": 3,
+          "answers": 1
+        },
+        {
+          "questionId": 4,
+          "answers": 2
+        },
+        {
+          "questionId": 5,
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "08f1",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "7ac7",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answers": 1
+        },
+        {
+          "questionId": 3,
+          "answers": 0
+        },
+        {
+          "questionId": 4,
+          "answers": 0
+        },
+        {
+          "questionId": 5,
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "b3b6",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 1
+        },
+        {
+          "questionId": 6,
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "e9a6",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 2
+        },
+        {
+          "questionId": 6,
+          "answers": 2
+        }
+      ]
+    },
+    {
+      "id": "1304",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answers": 2
+        },
+        {
+          "questionId": 6,
+          "answers": 2
+        }
+      ]
+    }
+  ]
+}
